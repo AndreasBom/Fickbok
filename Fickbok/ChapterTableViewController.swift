@@ -40,12 +40,6 @@ class ChapterViewController: UITableViewController {
             }
         }
         
-//        else if segue.identifier == "showDetail2" {
-//            let controller = (segue.destinationViewController as! UINavigationController).topViewController as! DetailViewController2
-//            controller.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem()
-//            controller.navigationItem.leftItemsSupplementBackButton = true
-//        }
-        
     }
 
     // MARK: - Table View

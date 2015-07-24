@@ -24,7 +24,7 @@ class PdfViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        //self.prepareForShowingSelectedDocument()
+        
         if pdfRequest != nil{
             self.pdfViewer.loadRequest(pdfRequest!)
         }
