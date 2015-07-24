@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8121.20" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.16"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Digital version ©2015 Andreas Bom" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q9C-Y9-1YS">
+                    <rect key="frame" x="8" y="443" width="464" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="15E-x4-K3J"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="a3O-k9-Kg9">
+                    <rect key="frame" x="92" y="0.0" width="296" height="454"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="296" id="AcY-BB-j9f"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="q9C-Y9-1YS" firstAttribute="centerX" secondItem="a3O-k9-Kg9" secondAttribute="centerX" id="1O0-bl-cK8"/>
+                <constraint firstItem="a3O-k9-Kg9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="f8B-gA-239"/>
+                <constraint firstItem="q9C-Y9-1YS" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailingMargin" id="qER-vk-dVZ"/>
+                <constraint firstAttribute="bottom" secondItem="q9C-Y9-1YS" secondAttribute="bottom" constant="16" id="uV1-3k-h3R"/>
+                <constraint firstAttribute="bottom" secondItem="a3O-k9-Kg9" secondAttribute="bottom" constant="26" id="vqW-HR-3Rq"/>
+                <constraint firstItem="q9C-Y9-1YS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" id="zbh-OK-bJM"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="splash.jpg" width="557" height="878"/>
+    </resources>
+</document>

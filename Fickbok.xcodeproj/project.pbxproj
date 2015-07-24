@@ -1,0 +1,837 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A9A4BB719F2785B00F81929 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A4BB619F2785B00F81929 /* AppDelegate.swift */; };
+		0A9A4BB919F2785B00F81929 /* ChapterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A4BB819F2785B00F81929 /* ChapterTableViewController.swift */; };
+		0A9A4BBB19F2785B00F81929 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A4BBA19F2785B00F81929 /* DetailViewController.swift */; };
+		0A9A4BBE19F2785B00F81929 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9A4BBC19F2785B00F81929 /* Main.storyboard */; };
+		0A9A4BC019F2785B00F81929 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9A4BBF19F2785B00F81929 /* Images.xcassets */; };
+		0A9A4BC319F2785B00F81929 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A9A4BC119F2785B00F81929 /* LaunchScreen.xib */; };
+		0A9A4BCF19F2785B00F81929 /* FickbokTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A4BCE19F2785B00F81929 /* FickbokTests.swift */; };
+		66772DD41B60098600EC6659 /* Ambulansens-fickbok in Resources */ = {isa = PBXBuildFile; fileRef = 66772DD31B60098600EC6659 /* Ambulansens-fickbok */; };
+		66BDBA7E1B60F7D000EB105B /* AlgorithmsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BDBA7D1B60F7D000EB105B /* AlgorithmsTableViewController.swift */; };
+		66BDBA801B60FA7300EB105B /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BDBA7F1B60FA7300EB105B /* DataFetcher.swift */; };
+		66BDBA971B61864E00EB105B /* Basal övervakning.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBA871B61864E00EB105B /* Basal övervakning.pdf */; };
+		66BDBA981B61864E00EB105B /* Basala behandlingsmål.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBA881B61864E00EB105B /* Basala behandlingsmål.pdf */; };
+		66BDBA991B61864E00EB105B /* Behandlingsschema info.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBA891B61864E00EB105B /* Behandlingsschema info.pdf */; };
+		66BDBA9A1B61864E00EB105B /* Hjärtstopp II.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBA8A1B61864E00EB105B /* Hjärtstopp II.pdf */; };
+		66BDBA9B1B61864E00EB105B /* Hjärtstopp.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBA8B1B61864E00EB105B /* Hjärtstopp.pdf */; };
+		66BDBA9C1B61864E00EB105B /* Immobilisering II.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBA8C1B61864E00EB105B /* Immobilisering II.pdf */; };
+		66BDBA9D1B61864E00EB105B /* Immobilisering.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBA8D1B61864E00EB105B /* Immobilisering.pdf */; };
+		66BDBA9E1B61864E00EB105B /* Intraossiös nål.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBA8E1B61864E00EB105B /* Intraossiös nål.pdf */; };
+		66BDBA9F1B61864E00EB105B /* MIMMS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBA8F1B61864E00EB105B /* MIMMS.pdf */; };
+		66BDBAA01B61864E00EB105B /* Prioriteringskort.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBA901B61864E00EB105B /* Prioriteringskort.pdf */; };
+		66BDBAA11B61864E00EB105B /* Stroke.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBA911B61864E00EB105B /* Stroke.pdf */; };
+		66BDBAA21B61864E00EB105B /* Trauma.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBA921B61864E00EB105B /* Trauma.pdf */; };
+		66BDBAA31B61864E00EB105B /* Undersökningsteknik II.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBA931B61864E00EB105B /* Undersökningsteknik II.pdf */; };
+		66BDBAA41B61864E00EB105B /* Undersökningsteknik III.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBA941B61864E00EB105B /* Undersökningsteknik III.pdf */; };
+		66BDBAA51B61864E00EB105B /* Undersökningsteknik.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBA951B61864E00EB105B /* Undersökningsteknik.pdf */; };
+		66BDBAA61B61864E00EB105B /* Vitalparametrar Retts.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBA961B61864E00EB105B /* Vitalparametrar Retts.pdf */; };
+		66BDBACB1B61867F00EB105B /* Adrenalin Inhallation.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAA71B61867E00EB105B /* Adrenalin Inhallation.pdf */; };
+		66BDBACC1B61867F00EB105B /* Adrenalin.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAA81B61867E00EB105B /* Adrenalin.pdf */; };
+		66BDBACD1B61867F00EB105B /* Alvedon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAA91B61867E00EB105B /* Alvedon.pdf */; };
+		66BDBACE1B61867F00EB105B /* Atropin.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAAA1B61867E00EB105B /* Atropin.pdf */; };
+		66BDBACF1B61867F00EB105B /* Betapred.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAAB1B61867E00EB105B /* Betapred.pdf */; };
+		66BDBAD01B61867F00EB105B /* Bricanyl.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAAC1B61867E00EB105B /* Bricanyl.pdf */; };
+		66BDBAD11B61867F00EB105B /* Brilique.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAAD1B61867E00EB105B /* Brilique.pdf */; };
+		66BDBAD21B61867F00EB105B /* Carbocain.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAAE1B61867E00EB105B /* Carbocain.pdf */; };
+		66BDBAD31B61867F00EB105B /* Combivent.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAAF1B61867E00EB105B /* Combivent.pdf */; };
+		66BDBAD41B61867F00EB105B /* Cordarone.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAB01B61867E00EB105B /* Cordarone.pdf */; };
+		66BDBAD51B61867F00EB105B /* Diklofenak:Voltaren.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAB11B61867E00EB105B /* Diklofenak:Voltaren.pdf */; };
+		66BDBAD61B61867F00EB105B /* Fentanyl I.N.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAB21B61867E00EB105B /* Fentanyl I.N.pdf */; };
+		66BDBAD71B61867F00EB105B /* Furix.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAB31B61867E00EB105B /* Furix.pdf */; };
+		66BDBAD81B61867F00EB105B /* Glukos.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAB41B61867E00EB105B /* Glukos.pdf */; };
+		66BDBAD91B61867F00EB105B /* Heparin.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAB51B61867E00EB105B /* Heparin.pdf */; };
+		66BDBADA1B61867F00EB105B /* Ketanest.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAB61B61867E00EB105B /* Ketanest.pdf */; };
+		66BDBADB1B61867F00EB105B /* Kolsuspension.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAB71B61867E00EB105B /* Kolsuspension.pdf */; };
+		66BDBADC1B61867F00EB105B /* Loratadin.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAB81B61867E00EB105B /* Loratadin.pdf */; };
+		66BDBADD1B61867F00EB105B /* Lustgas:Oxygen.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAB91B61867E00EB105B /* Lustgas:Oxygen.pdf */; };
+		66BDBADE1B61867F00EB105B /* Midazolam.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBABA1B61867E00EB105B /* Midazolam.pdf */; };
+		66BDBADF1B61867F00EB105B /* Morfin.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBABB1B61867E00EB105B /* Morfin.pdf */; };
+		66BDBAE01B61867F00EB105B /* Naloxon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBABC1B61867E00EB105B /* Naloxon.pdf */; };
+		66BDBAE11B61867F00EB105B /* Nitrolingual.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBABD1B61867E00EB105B /* Nitrolingual.pdf */; };
+		66BDBAE21B61867F00EB105B /* Ondansetron.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBABE1B61867E00EB105B /* Ondansetron.pdf */; };
+		66BDBAE31B61867F00EB105B /* Oxygen.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBABF1B61867E00EB105B /* Oxygen.pdf */; };
+		66BDBAE41B61867F00EB105B /* Panodil.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAC01B61867E00EB105B /* Panodil.pdf */; };
+		66BDBAE51B61867F00EB105B /* Preparathandbok info.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAC11B61867E00EB105B /* Preparathandbok info.pdf */; };
+		66BDBAE61B61867F00EB105B /* Pulmicort.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAC21B61867E00EB105B /* Pulmicort.pdf */; };
+		66BDBAE71B61867F00EB105B /* Ringer-Acetat.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAC31B61867E00EB105B /* Ringer-Acetat.pdf */; };
+		66BDBAE81B61867F00EB105B /* Seloken.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAC41B61867E00EB105B /* Seloken.pdf */; };
+		66BDBAE91B61867F00EB105B /* Stesolid Klysma:Prefil.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAC51B61867E00EB105B /* Stesolid Klysma:Prefil.pdf */; };
+		66BDBAEA1B61867F00EB105B /* Stesolid.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAC61B61867E00EB105B /* Stesolid.pdf */; };
+		66BDBAEB1B61867F00EB105B /* Suscard.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAC71B61867E00EB105B /* Suscard.pdf */; };
+		66BDBAEC1B61867F00EB105B /* Tetracain.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAC81B61867E00EB105B /* Tetracain.pdf */; };
+		66BDBAED1B61867F00EB105B /* Trombyl.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAC91B61867E00EB105B /* Trombyl.pdf */; };
+		66BDBAEE1B61867F00EB105B /* Ventolin.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBACA1B61867E00EB105B /* Ventolin.pdf */; };
+		66BDBB041B6186A300EB105B /* Akut Buk Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAEF1B6186A300EB105B /* Akut Buk Barn.pdf */; };
+		66BDBB051B6186A300EB105B /* Anafylaktisk reaktion Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAF01B6186A300EB105B /* Anafylaktisk reaktion Barn.pdf */; };
+		66BDBB061B6186A300EB105B /* Andningshinder Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAF11B6186A300EB105B /* Andningshinder Barn.pdf */; };
+		66BDBB071B6186A300EB105B /* Andningshinder II Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAF21B6186A300EB105B /* Andningshinder II Barn.pdf */; };
+		66BDBB081B6186A300EB105B /* Astma-Obstruktiva besvär Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAF31B6186A300EB105B /* Astma-Obstruktiva besvär Barn.pdf */; };
+		66BDBB091B6186A300EB105B /* Bradykardi Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAF41B6186A300EB105B /* Bradykardi Barn.pdf */; };
+		66BDBB0A1B6186A300EB105B /* Diabetes Mellitus Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAF51B6186A300EB105B /* Diabetes Mellitus Barn.pdf */; };
+		66BDBB0B1B6186A300EB105B /* Drunkningstillbud Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAF61B6186A300EB105B /* Drunkningstillbud Barn.pdf */; };
+		66BDBB0C1B6186A300EB105B /* HLR Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAF71B6186A300EB105B /* HLR Barn.pdf */; };
+		66BDBB0D1B6186A300EB105B /* Intoxikation Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAF81B6186A300EB105B /* Intoxikation Barn.pdf */; };
+		66BDBB0E1B6186A300EB105B /* Kramper Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAF91B6186A300EB105B /* Kramper Barn.pdf */; };
+		66BDBB0F1B6186A300EB105B /* Läkemedelsbehandling Barn info.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAFA1B6186A300EB105B /* Läkemedelsbehandling Barn info.pdf */; };
+		66BDBB101B6186A300EB105B /* Läkemedelsdoser Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAFB1B6186A300EB105B /* Läkemedelsdoser Barn.pdf */; };
+		66BDBB111B6186A300EB105B /* Läkemedelsdoser II Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAFC1B6186A300EB105B /* Läkemedelsdoser II Barn.pdf */; };
+		66BDBB121B6186A300EB105B /* Läkemedelsdoser III Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAFD1B6186A300EB105B /* Läkemedelsdoser III Barn.pdf */; };
+		66BDBB131B6186A300EB105B /* Läkemedelsdoser IV Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAFE1B6186A300EB105B /* Läkemedelsdoser IV Barn.pdf */; };
+		66BDBB141B6186A300EB105B /* Läkemedelsdoser V Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAFF1B6186A300EB105B /* Läkemedelsdoser V Barn.pdf */; };
+		66BDBB151B6186A300EB105B /* Normalvärden Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBB001B6186A300EB105B /* Normalvärden Barn.pdf */; };
+		66BDBB161B6186A300EB105B /* Rök- och inhallationsskada Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBB011B6186A300EB105B /* Rök- och inhallationsskada Barn.pdf */; };
+		66BDBB171B6186A300EB105B /* Trauma och brännskada Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBB021B6186A300EB105B /* Trauma och brännskada Barn.pdf */; };
+		66BDBB181B6186A300EB105B /* Vätskebalans Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBB031B6186A300EB105B /* Vätskebalans Barn.pdf */; };
+		66BE2C031B62540200566EE4 /* splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66BE2C021B62540200566EE4 /* splash.jpg */; };
+		DEC2EE191B5EC1C500544DE2 /* Chapters.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC2EE181B5EC1C500544DE2 /* Chapters.swift */; };
+		DEC2EE1C1B5ECD3A00544DE2 /* DrugsAdultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC2EE1B1B5ECD3A00544DE2 /* DrugsAdultTableViewController.swift */; };
+		DEC2EE1E1B5ED82100544DE2 /* PdfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC2EE1D1B5ED82100544DE2 /* PdfViewController.swift */; };
+		DEC2EE201B5EE20900544DE2 /* DrugsChildrenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC2EE1F1B5EE20900544DE2 /* DrugsChildrenTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A9A4BC919F2785B00F81929 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A9A4BA919F2785B00F81929 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A9A4BB019F2785B00F81929;
+			remoteInfo = MultipleDetailViews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A9A4BB119F2785B00F81929 /* Fickbok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fickbok.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9A4BB519F2785B00F81929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A9A4BB619F2785B00F81929 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A9A4BB819F2785B00F81929 /* ChapterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChapterTableViewController.swift; path = Fickbok/ChapterTableViewController.swift; sourceTree = "<group>"; };
+		0A9A4BBA19F2785B00F81929 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = Fickbok/DetailViewController.swift; sourceTree = "<group>"; };
+		0A9A4BBD19F2785B00F81929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A9A4BBF19F2785B00F81929 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Fickbok/Images.xcassets; sourceTree = "<group>"; };
+		0A9A4BC219F2785B00F81929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0A9A4BC819F2785B00F81929 /* Fickbok.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fickbok.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9A4BCD19F2785B00F81929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A9A4BCE19F2785B00F81929 /* FickbokTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FickbokTests.swift; sourceTree = "<group>"; };
+		66772DD31B60098600EC6659 /* Ambulansens-fickbok */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Ambulansens-fickbok"; path = "Fickbok/Ambulansens-fickbok"; sourceTree = "<group>"; };
+		66BDBA7D1B60F7D000EB105B /* AlgorithmsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlgorithmsTableViewController.swift; path = Fickbok/AlgorithmsTableViewController.swift; sourceTree = "<group>"; };
+		66BDBA7F1B60FA7300EB105B /* DataFetcher.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; fileEncoding = 4; lineEnding = 0; name = DataFetcher.swift; path = Fickbok/DataFetcher.swift; sourceTree = "<group>"; };
+		66BDBA871B61864E00EB105B /* Basal övervakning.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Basal övervakning.pdf"; path = "Ambulansens-fickbok/Algoritmer/Basal övervakning.pdf"; sourceTree = "<group>"; };
+		66BDBA881B61864E00EB105B /* Basala behandlingsmål.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Basala behandlingsmål.pdf"; path = "Ambulansens-fickbok/Algoritmer/Basala behandlingsmål.pdf"; sourceTree = "<group>"; };
+		66BDBA891B61864E00EB105B /* Behandlingsschema info.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Behandlingsschema info.pdf"; path = "Ambulansens-fickbok/Algoritmer/Behandlingsschema info.pdf"; sourceTree = "<group>"; };
+		66BDBA8A1B61864E00EB105B /* Hjärtstopp II.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Hjärtstopp II.pdf"; path = "Ambulansens-fickbok/Algoritmer/Hjärtstopp II.pdf"; sourceTree = "<group>"; };
+		66BDBA8B1B61864E00EB105B /* Hjärtstopp.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Hjärtstopp.pdf"; path = "Ambulansens-fickbok/Algoritmer/Hjärtstopp.pdf"; sourceTree = "<group>"; };
+		66BDBA8C1B61864E00EB105B /* Immobilisering II.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Immobilisering II.pdf"; path = "Ambulansens-fickbok/Algoritmer/Immobilisering II.pdf"; sourceTree = "<group>"; };
+		66BDBA8D1B61864E00EB105B /* Immobilisering.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Immobilisering.pdf; path = "Ambulansens-fickbok/Algoritmer/Immobilisering.pdf"; sourceTree = "<group>"; };
+		66BDBA8E1B61864E00EB105B /* Intraossiös nål.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Intraossiös nål.pdf"; path = "Ambulansens-fickbok/Algoritmer/Intraossiös nål.pdf"; sourceTree = "<group>"; };
+		66BDBA8F1B61864E00EB105B /* MIMMS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = MIMMS.pdf; path = "Ambulansens-fickbok/Algoritmer/MIMMS.pdf"; sourceTree = "<group>"; };
+		66BDBA901B61864E00EB105B /* Prioriteringskort.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Prioriteringskort.pdf; path = "Ambulansens-fickbok/Algoritmer/Prioriteringskort.pdf"; sourceTree = "<group>"; };
+		66BDBA911B61864E00EB105B /* Stroke.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Stroke.pdf; path = "Ambulansens-fickbok/Algoritmer/Stroke.pdf"; sourceTree = "<group>"; };
+		66BDBA921B61864E00EB105B /* Trauma.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Trauma.pdf; path = "Ambulansens-fickbok/Algoritmer/Trauma.pdf"; sourceTree = "<group>"; };
+		66BDBA931B61864E00EB105B /* Undersökningsteknik II.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Undersökningsteknik II.pdf"; path = "Ambulansens-fickbok/Algoritmer/Undersökningsteknik II.pdf"; sourceTree = "<group>"; };
+		66BDBA941B61864E00EB105B /* Undersökningsteknik III.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Undersökningsteknik III.pdf"; path = "Ambulansens-fickbok/Algoritmer/Undersökningsteknik III.pdf"; sourceTree = "<group>"; };
+		66BDBA951B61864E00EB105B /* Undersökningsteknik.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Undersökningsteknik.pdf"; path = "Ambulansens-fickbok/Algoritmer/Undersökningsteknik.pdf"; sourceTree = "<group>"; };
+		66BDBA961B61864E00EB105B /* Vitalparametrar Retts.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Vitalparametrar Retts.pdf"; path = "Ambulansens-fickbok/Algoritmer/Vitalparametrar Retts.pdf"; sourceTree = "<group>"; };
+		66BDBAA71B61867E00EB105B /* Adrenalin Inhallation.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Adrenalin Inhallation.pdf"; path = "Ambulansens-fickbok/Vuxen/Adrenalin Inhallation.pdf"; sourceTree = "<group>"; };
+		66BDBAA81B61867E00EB105B /* Adrenalin.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Adrenalin.pdf; path = "Ambulansens-fickbok/Vuxen/Adrenalin.pdf"; sourceTree = "<group>"; };
+		66BDBAA91B61867E00EB105B /* Alvedon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Alvedon.pdf; path = "Ambulansens-fickbok/Vuxen/Alvedon.pdf"; sourceTree = "<group>"; };
+		66BDBAAA1B61867E00EB105B /* Atropin.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Atropin.pdf; path = "Ambulansens-fickbok/Vuxen/Atropin.pdf"; sourceTree = "<group>"; };
+		66BDBAAB1B61867E00EB105B /* Betapred.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Betapred.pdf; path = "Ambulansens-fickbok/Vuxen/Betapred.pdf"; sourceTree = "<group>"; };
+		66BDBAAC1B61867E00EB105B /* Bricanyl.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Bricanyl.pdf; path = "Ambulansens-fickbok/Vuxen/Bricanyl.pdf"; sourceTree = "<group>"; };
+		66BDBAAD1B61867E00EB105B /* Brilique.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Brilique.pdf; path = "Ambulansens-fickbok/Vuxen/Brilique.pdf"; sourceTree = "<group>"; };
+		66BDBAAE1B61867E00EB105B /* Carbocain.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Carbocain.pdf; path = "Ambulansens-fickbok/Vuxen/Carbocain.pdf"; sourceTree = "<group>"; };
+		66BDBAAF1B61867E00EB105B /* Combivent.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Combivent.pdf; path = "Ambulansens-fickbok/Vuxen/Combivent.pdf"; sourceTree = "<group>"; };
+		66BDBAB01B61867E00EB105B /* Cordarone.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Cordarone.pdf; path = "Ambulansens-fickbok/Vuxen/Cordarone.pdf"; sourceTree = "<group>"; };
+		66BDBAB11B61867E00EB105B /* Diklofenak:Voltaren.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Diklofenak:Voltaren.pdf"; path = "Ambulansens-fickbok/Vuxen/Diklofenak:Voltaren.pdf"; sourceTree = "<group>"; };
+		66BDBAB21B61867E00EB105B /* Fentanyl I.N.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Fentanyl I.N.pdf"; path = "Ambulansens-fickbok/Vuxen/Fentanyl I.N.pdf"; sourceTree = "<group>"; };
+		66BDBAB31B61867E00EB105B /* Furix.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Furix.pdf; path = "Ambulansens-fickbok/Vuxen/Furix.pdf"; sourceTree = "<group>"; };
+		66BDBAB41B61867E00EB105B /* Glukos.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Glukos.pdf; path = "Ambulansens-fickbok/Vuxen/Glukos.pdf"; sourceTree = "<group>"; };
+		66BDBAB51B61867E00EB105B /* Heparin.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Heparin.pdf; path = "Ambulansens-fickbok/Vuxen/Heparin.pdf"; sourceTree = "<group>"; };
+		66BDBAB61B61867E00EB105B /* Ketanest.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Ketanest.pdf; path = "Ambulansens-fickbok/Vuxen/Ketanest.pdf"; sourceTree = "<group>"; };
+		66BDBAB71B61867E00EB105B /* Kolsuspension.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Kolsuspension.pdf; path = "Ambulansens-fickbok/Vuxen/Kolsuspension.pdf"; sourceTree = "<group>"; };
+		66BDBAB81B61867E00EB105B /* Loratadin.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Loratadin.pdf; path = "Ambulansens-fickbok/Vuxen/Loratadin.pdf"; sourceTree = "<group>"; };
+		66BDBAB91B61867E00EB105B /* Lustgas:Oxygen.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Lustgas:Oxygen.pdf"; path = "Ambulansens-fickbok/Vuxen/Lustgas:Oxygen.pdf"; sourceTree = "<group>"; };
+		66BDBABA1B61867E00EB105B /* Midazolam.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Midazolam.pdf; path = "Ambulansens-fickbok/Vuxen/Midazolam.pdf"; sourceTree = "<group>"; };
+		66BDBABB1B61867E00EB105B /* Morfin.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Morfin.pdf; path = "Ambulansens-fickbok/Vuxen/Morfin.pdf"; sourceTree = "<group>"; };
+		66BDBABC1B61867E00EB105B /* Naloxon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Naloxon.pdf; path = "Ambulansens-fickbok/Vuxen/Naloxon.pdf"; sourceTree = "<group>"; };
+		66BDBABD1B61867E00EB105B /* Nitrolingual.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Nitrolingual.pdf; path = "Ambulansens-fickbok/Vuxen/Nitrolingual.pdf"; sourceTree = "<group>"; };
+		66BDBABE1B61867E00EB105B /* Ondansetron.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Ondansetron.pdf; path = "Ambulansens-fickbok/Vuxen/Ondansetron.pdf"; sourceTree = "<group>"; };
+		66BDBABF1B61867E00EB105B /* Oxygen.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Oxygen.pdf; path = "Ambulansens-fickbok/Vuxen/Oxygen.pdf"; sourceTree = "<group>"; };
+		66BDBAC01B61867E00EB105B /* Panodil.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Panodil.pdf; path = "Ambulansens-fickbok/Vuxen/Panodil.pdf"; sourceTree = "<group>"; };
+		66BDBAC11B61867E00EB105B /* Preparathandbok info.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Preparathandbok info.pdf"; path = "Ambulansens-fickbok/Vuxen/Preparathandbok info.pdf"; sourceTree = "<group>"; };
+		66BDBAC21B61867E00EB105B /* Pulmicort.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Pulmicort.pdf; path = "Ambulansens-fickbok/Vuxen/Pulmicort.pdf"; sourceTree = "<group>"; };
+		66BDBAC31B61867E00EB105B /* Ringer-Acetat.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Ringer-Acetat.pdf"; path = "Ambulansens-fickbok/Vuxen/Ringer-Acetat.pdf"; sourceTree = "<group>"; };
+		66BDBAC41B61867E00EB105B /* Seloken.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Seloken.pdf; path = "Ambulansens-fickbok/Vuxen/Seloken.pdf"; sourceTree = "<group>"; };
+		66BDBAC51B61867E00EB105B /* Stesolid Klysma:Prefil.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Stesolid Klysma:Prefil.pdf"; path = "Ambulansens-fickbok/Vuxen/Stesolid Klysma:Prefil.pdf"; sourceTree = "<group>"; };
+		66BDBAC61B61867E00EB105B /* Stesolid.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Stesolid.pdf; path = "Ambulansens-fickbok/Vuxen/Stesolid.pdf"; sourceTree = "<group>"; };
+		66BDBAC71B61867E00EB105B /* Suscard.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Suscard.pdf; path = "Ambulansens-fickbok/Vuxen/Suscard.pdf"; sourceTree = "<group>"; };
+		66BDBAC81B61867E00EB105B /* Tetracain.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Tetracain.pdf; path = "Ambulansens-fickbok/Vuxen/Tetracain.pdf"; sourceTree = "<group>"; };
+		66BDBAC91B61867E00EB105B /* Trombyl.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Trombyl.pdf; path = "Ambulansens-fickbok/Vuxen/Trombyl.pdf"; sourceTree = "<group>"; };
+		66BDBACA1B61867E00EB105B /* Ventolin.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Ventolin.pdf; path = "Ambulansens-fickbok/Vuxen/Ventolin.pdf"; sourceTree = "<group>"; };
+		66BDBAEF1B6186A300EB105B /* Akut Buk Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Akut Buk Barn.pdf"; path = "Ambulansens-fickbok/Barn/Akut Buk Barn.pdf"; sourceTree = "<group>"; };
+		66BDBAF01B6186A300EB105B /* Anafylaktisk reaktion Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Anafylaktisk reaktion Barn.pdf"; path = "Ambulansens-fickbok/Barn/Anafylaktisk reaktion Barn.pdf"; sourceTree = "<group>"; };
+		66BDBAF11B6186A300EB105B /* Andningshinder Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Andningshinder Barn.pdf"; path = "Ambulansens-fickbok/Barn/Andningshinder Barn.pdf"; sourceTree = "<group>"; };
+		66BDBAF21B6186A300EB105B /* Andningshinder II Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Andningshinder II Barn.pdf"; path = "Ambulansens-fickbok/Barn/Andningshinder II Barn.pdf"; sourceTree = "<group>"; };
+		66BDBAF31B6186A300EB105B /* Astma-Obstruktiva besvär Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Astma-Obstruktiva besvär Barn.pdf"; path = "Ambulansens-fickbok/Barn/Astma-Obstruktiva besvär Barn.pdf"; sourceTree = "<group>"; };
+		66BDBAF41B6186A300EB105B /* Bradykardi Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Bradykardi Barn.pdf"; path = "Ambulansens-fickbok/Barn/Bradykardi Barn.pdf"; sourceTree = "<group>"; };
+		66BDBAF51B6186A300EB105B /* Diabetes Mellitus Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Diabetes Mellitus Barn.pdf"; path = "Ambulansens-fickbok/Barn/Diabetes Mellitus Barn.pdf"; sourceTree = "<group>"; };
+		66BDBAF61B6186A300EB105B /* Drunkningstillbud Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Drunkningstillbud Barn.pdf"; path = "Ambulansens-fickbok/Barn/Drunkningstillbud Barn.pdf"; sourceTree = "<group>"; };
+		66BDBAF71B6186A300EB105B /* HLR Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "HLR Barn.pdf"; path = "Ambulansens-fickbok/Barn/HLR Barn.pdf"; sourceTree = "<group>"; };
+		66BDBAF81B6186A300EB105B /* Intoxikation Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Intoxikation Barn.pdf"; path = "Ambulansens-fickbok/Barn/Intoxikation Barn.pdf"; sourceTree = "<group>"; };
+		66BDBAF91B6186A300EB105B /* Kramper Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Kramper Barn.pdf"; path = "Ambulansens-fickbok/Barn/Kramper Barn.pdf"; sourceTree = "<group>"; };
+		66BDBAFA1B6186A300EB105B /* Läkemedelsbehandling Barn info.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Läkemedelsbehandling Barn info.pdf"; path = "Ambulansens-fickbok/Barn/Läkemedelsbehandling Barn info.pdf"; sourceTree = "<group>"; };
+		66BDBAFB1B6186A300EB105B /* Läkemedelsdoser Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Läkemedelsdoser Barn.pdf"; path = "Ambulansens-fickbok/Barn/Läkemedelsdoser Barn.pdf"; sourceTree = "<group>"; };
+		66BDBAFC1B6186A300EB105B /* Läkemedelsdoser II Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Läkemedelsdoser II Barn.pdf"; path = "Ambulansens-fickbok/Barn/Läkemedelsdoser II Barn.pdf"; sourceTree = "<group>"; };
+		66BDBAFD1B6186A300EB105B /* Läkemedelsdoser III Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Läkemedelsdoser III Barn.pdf"; path = "Ambulansens-fickbok/Barn/Läkemedelsdoser III Barn.pdf"; sourceTree = "<group>"; };
+		66BDBAFE1B6186A300EB105B /* Läkemedelsdoser IV Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Läkemedelsdoser IV Barn.pdf"; path = "Ambulansens-fickbok/Barn/Läkemedelsdoser IV Barn.pdf"; sourceTree = "<group>"; };
+		66BDBAFF1B6186A300EB105B /* Läkemedelsdoser V Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Läkemedelsdoser V Barn.pdf"; path = "Ambulansens-fickbok/Barn/Läkemedelsdoser V Barn.pdf"; sourceTree = "<group>"; };
+		66BDBB001B6186A300EB105B /* Normalvärden Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Normalvärden Barn.pdf"; path = "Ambulansens-fickbok/Barn/Normalvärden Barn.pdf"; sourceTree = "<group>"; };
+		66BDBB011B6186A300EB105B /* Rök- och inhallationsskada Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Rök- och inhallationsskada Barn.pdf"; path = "Ambulansens-fickbok/Barn/Rök- och inhallationsskada Barn.pdf"; sourceTree = "<group>"; };
+		66BDBB021B6186A300EB105B /* Trauma och brännskada Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Trauma och brännskada Barn.pdf"; path = "Ambulansens-fickbok/Barn/Trauma och brännskada Barn.pdf"; sourceTree = "<group>"; };
+		66BDBB031B6186A300EB105B /* Vätskebalans Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Vätskebalans Barn.pdf"; path = "Ambulansens-fickbok/Barn/Vätskebalans Barn.pdf"; sourceTree = "<group>"; };
+		66BE2C021B62540200566EE4 /* splash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = splash.jpg; path = "Ambulansens-fickbok/splash.jpg"; sourceTree = "<group>"; };
+		DEC2EE181B5EC1C500544DE2 /* Chapters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Chapters.swift; path = Fickbok/Chapters.swift; sourceTree = "<group>"; };
+		DEC2EE1B1B5ECD3A00544DE2 /* DrugsAdultTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrugsAdultTableViewController.swift; path = Fickbok/DrugsAdultTableViewController.swift; sourceTree = "<group>"; };
+		DEC2EE1D1B5ED82100544DE2 /* PdfViewController.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; fileEncoding = 4; name = PdfViewController.swift; path = Fickbok/PdfViewController.swift; sourceTree = "<group>"; };
+		DEC2EE1F1B5EE20900544DE2 /* DrugsChildrenTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrugsChildrenTableViewController.swift; path = Fickbok/DrugsChildrenTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A9A4BAE19F2785B00F81929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9A4BC519F2785B00F81929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A9A4BA819F2785A00F81929 = {
+			isa = PBXGroup;
+			children = (
+				0A9A4BB319F2785B00F81929 /* Fickbok */,
+				0A9A4BCB19F2785B00F81929 /* FickbokTests */,
+				0A9A4BB219F2785B00F81929 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A9A4BB219F2785B00F81929 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A9A4BB119F2785B00F81929 /* Fickbok.app */,
+				0A9A4BC819F2785B00F81929 /* Fickbok.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A9A4BB319F2785B00F81929 /* Fickbok */ = {
+			isa = PBXGroup;
+			children = (
+				0A9A4BB619F2785B00F81929 /* AppDelegate.swift */,
+				DEC2EE0E1B5EBC4F00544DE2 /* Data */,
+				DEC2EE1A1B5EC1D600544DE2 /* Model */,
+				66BE2BFE1B624BA500566EE4 /* Controll */,
+				66BE2BFF1B624BD200566EE4 /* View */,
+				0A9A4BB419F2785B00F81929 /* Supporting Files */,
+			);
+			path = Fickbok;
+			sourceTree = "<group>";
+		};
+		0A9A4BB419F2785B00F81929 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A9A4BB519F2785B00F81929 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A9A4BCB19F2785B00F81929 /* FickbokTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A9A4BCE19F2785B00F81929 /* FickbokTests.swift */,
+				0A9A4BCC19F2785B00F81929 /* Supporting Files */,
+			);
+			name = FickbokTests;
+			path = MultipleDetailViewsTests;
+			sourceTree = "<group>";
+		};
+		0A9A4BCC19F2785B00F81929 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A9A4BCD19F2785B00F81929 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66BDBA831B61859B00EB105B /* SymLinkData */ = {
+			isa = PBXGroup;
+			children = (
+				66BE2C021B62540200566EE4 /* splash.jpg */,
+				66BDBA861B6185E800EB105B /* Vuxen */,
+				66BDBA851B6185DE00EB105B /* Barn */,
+				66BDBA841B6185D400EB105B /* Algoritmer */,
+			);
+			name = SymLinkData;
+			path = Fickbok;
+			sourceTree = "<group>";
+		};
+		66BDBA841B6185D400EB105B /* Algoritmer */ = {
+			isa = PBXGroup;
+			children = (
+				66BDBA871B61864E00EB105B /* Basal övervakning.pdf */,
+				66BDBA881B61864E00EB105B /* Basala behandlingsmål.pdf */,
+				66BDBA891B61864E00EB105B /* Behandlingsschema info.pdf */,
+				66BDBA8A1B61864E00EB105B /* Hjärtstopp II.pdf */,
+				66BDBA8B1B61864E00EB105B /* Hjärtstopp.pdf */,
+				66BDBA8C1B61864E00EB105B /* Immobilisering II.pdf */,
+				66BDBA8D1B61864E00EB105B /* Immobilisering.pdf */,
+				66BDBA8E1B61864E00EB105B /* Intraossiös nål.pdf */,
+				66BDBA8F1B61864E00EB105B /* MIMMS.pdf */,
+				66BDBA901B61864E00EB105B /* Prioriteringskort.pdf */,
+				66BDBA911B61864E00EB105B /* Stroke.pdf */,
+				66BDBA921B61864E00EB105B /* Trauma.pdf */,
+				66BDBA931B61864E00EB105B /* Undersökningsteknik II.pdf */,
+				66BDBA941B61864E00EB105B /* Undersökningsteknik III.pdf */,
+				66BDBA951B61864E00EB105B /* Undersökningsteknik.pdf */,
+				66BDBA961B61864E00EB105B /* Vitalparametrar Retts.pdf */,
+			);
+			name = Algoritmer;
+			sourceTree = "<group>";
+		};
+		66BDBA851B6185DE00EB105B /* Barn */ = {
+			isa = PBXGroup;
+			children = (
+				66BDBAEF1B6186A300EB105B /* Akut Buk Barn.pdf */,
+				66BDBAF01B6186A300EB105B /* Anafylaktisk reaktion Barn.pdf */,
+				66BDBAF11B6186A300EB105B /* Andningshinder Barn.pdf */,
+				66BDBAF21B6186A300EB105B /* Andningshinder II Barn.pdf */,
+				66BDBAF31B6186A300EB105B /* Astma-Obstruktiva besvär Barn.pdf */,
+				66BDBAF41B6186A300EB105B /* Bradykardi Barn.pdf */,
+				66BDBAF51B6186A300EB105B /* Diabetes Mellitus Barn.pdf */,
+				66BDBAF61B6186A300EB105B /* Drunkningstillbud Barn.pdf */,
+				66BDBAF71B6186A300EB105B /* HLR Barn.pdf */,
+				66BDBAF81B6186A300EB105B /* Intoxikation Barn.pdf */,
+				66BDBAF91B6186A300EB105B /* Kramper Barn.pdf */,
+				66BDBAFA1B6186A300EB105B /* Läkemedelsbehandling Barn info.pdf */,
+				66BDBAFB1B6186A300EB105B /* Läkemedelsdoser Barn.pdf */,
+				66BDBAFC1B6186A300EB105B /* Läkemedelsdoser II Barn.pdf */,
+				66BDBAFD1B6186A300EB105B /* Läkemedelsdoser III Barn.pdf */,
+				66BDBAFE1B6186A300EB105B /* Läkemedelsdoser IV Barn.pdf */,
+				66BDBAFF1B6186A300EB105B /* Läkemedelsdoser V Barn.pdf */,
+				66BDBB001B6186A300EB105B /* Normalvärden Barn.pdf */,
+				66BDBB011B6186A300EB105B /* Rök- och inhallationsskada Barn.pdf */,
+				66BDBB021B6186A300EB105B /* Trauma och brännskada Barn.pdf */,
+				66BDBB031B6186A300EB105B /* Vätskebalans Barn.pdf */,
+			);
+			name = Barn;
+			sourceTree = "<group>";
+		};
+		66BDBA861B6185E800EB105B /* Vuxen */ = {
+			isa = PBXGroup;
+			children = (
+				66BDBAA71B61867E00EB105B /* Adrenalin Inhallation.pdf */,
+				66BDBAA81B61867E00EB105B /* Adrenalin.pdf */,
+				66BDBAA91B61867E00EB105B /* Alvedon.pdf */,
+				66BDBAAA1B61867E00EB105B /* Atropin.pdf */,
+				66BDBAAB1B61867E00EB105B /* Betapred.pdf */,
+				66BDBAAC1B61867E00EB105B /* Bricanyl.pdf */,
+				66BDBAAD1B61867E00EB105B /* Brilique.pdf */,
+				66BDBAAE1B61867E00EB105B /* Carbocain.pdf */,
+				66BDBAAF1B61867E00EB105B /* Combivent.pdf */,
+				66BDBAB01B61867E00EB105B /* Cordarone.pdf */,
+				66BDBAB11B61867E00EB105B /* Diklofenak:Voltaren.pdf */,
+				66BDBAB21B61867E00EB105B /* Fentanyl I.N.pdf */,
+				66BDBAB31B61867E00EB105B /* Furix.pdf */,
+				66BDBAB41B61867E00EB105B /* Glukos.pdf */,
+				66BDBAB51B61867E00EB105B /* Heparin.pdf */,
+				66BDBAB61B61867E00EB105B /* Ketanest.pdf */,
+				66BDBAB71B61867E00EB105B /* Kolsuspension.pdf */,
+				66BDBAB81B61867E00EB105B /* Loratadin.pdf */,
+				66BDBAB91B61867E00EB105B /* Lustgas:Oxygen.pdf */,
+				66BDBABA1B61867E00EB105B /* Midazolam.pdf */,
+				66BDBABB1B61867E00EB105B /* Morfin.pdf */,
+				66BDBABC1B61867E00EB105B /* Naloxon.pdf */,
+				66BDBABD1B61867E00EB105B /* Nitrolingual.pdf */,
+				66BDBABE1B61867E00EB105B /* Ondansetron.pdf */,
+				66BDBABF1B61867E00EB105B /* Oxygen.pdf */,
+				66BDBAC01B61867E00EB105B /* Panodil.pdf */,
+				66BDBAC11B61867E00EB105B /* Preparathandbok info.pdf */,
+				66BDBAC21B61867E00EB105B /* Pulmicort.pdf */,
+				66BDBAC31B61867E00EB105B /* Ringer-Acetat.pdf */,
+				66BDBAC41B61867E00EB105B /* Seloken.pdf */,
+				66BDBAC51B61867E00EB105B /* Stesolid Klysma:Prefil.pdf */,
+				66BDBAC61B61867E00EB105B /* Stesolid.pdf */,
+				66BDBAC71B61867E00EB105B /* Suscard.pdf */,
+				66BDBAC81B61867E00EB105B /* Tetracain.pdf */,
+				66BDBAC91B61867E00EB105B /* Trombyl.pdf */,
+				66BDBACA1B61867E00EB105B /* Ventolin.pdf */,
+			);
+			name = Vuxen;
+			sourceTree = "<group>";
+		};
+		66BE2BFE1B624BA500566EE4 /* Controll */ = {
+			isa = PBXGroup;
+			children = (
+				0A9A4BB819F2785B00F81929 /* ChapterTableViewController.swift */,
+				DEC2EE1B1B5ECD3A00544DE2 /* DrugsAdultTableViewController.swift */,
+				DEC2EE1F1B5EE20900544DE2 /* DrugsChildrenTableViewController.swift */,
+				66BDBA7D1B60F7D000EB105B /* AlgorithmsTableViewController.swift */,
+				DEC2EE1D1B5ED82100544DE2 /* PdfViewController.swift */,
+				0A9A4BBA19F2785B00F81929 /* DetailViewController.swift */,
+			);
+			name = Controll;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		66BE2BFF1B624BD200566EE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A9A4BBC19F2785B00F81929 /* Main.storyboard */,
+				0A9A4BC119F2785B00F81929 /* LaunchScreen.xib */,
+				0A9A4BBF19F2785B00F81929 /* Images.xcassets */,
+			);
+			name = View;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		DEC2EE0E1B5EBC4F00544DE2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				66BDBA831B61859B00EB105B /* SymLinkData */,
+				66772DD31B60098600EC6659 /* Ambulansens-fickbok */,
+			);
+			name = Data;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		DEC2EE1A1B5EC1D600544DE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DEC2EE181B5EC1C500544DE2 /* Chapters.swift */,
+				66BDBA7F1B60FA7300EB105B /* DataFetcher.swift */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A9A4BB019F2785B00F81929 /* Fickbok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A9A4BD219F2785B00F81929 /* Build configuration list for PBXNativeTarget "Fickbok" */;
+			buildPhases = (
+				0A9A4BAD19F2785B00F81929 /* Sources */,
+				0A9A4BAE19F2785B00F81929 /* Frameworks */,
+				0A9A4BAF19F2785B00F81929 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fickbok;
+			productName = MultipleDetailViews;
+			productReference = 0A9A4BB119F2785B00F81929 /* Fickbok.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A9A4BC719F2785B00F81929 /* FickbokTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A9A4BD519F2785B00F81929 /* Build configuration list for PBXNativeTarget "FickbokTests" */;
+			buildPhases = (
+				0A9A4BC419F2785B00F81929 /* Sources */,
+				0A9A4BC519F2785B00F81929 /* Frameworks */,
+				0A9A4BC619F2785B00F81929 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A9A4BCA19F2785B00F81929 /* PBXTargetDependency */,
+			);
+			name = FickbokTests;
+			productName = MultipleDetailViewsTests;
+			productReference = 0A9A4BC819F2785B00F81929 /* Fickbok.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A9A4BA919F2785B00F81929 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = PTS;
+				TargetAttributes = {
+					0A9A4BB019F2785B00F81929 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = Z83H97CE3U;
+					};
+					0A9A4BC719F2785B00F81929 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 0A9A4BB019F2785B00F81929;
+					};
+				};
+			};
+			buildConfigurationList = 0A9A4BAC19F2785B00F81929 /* Build configuration list for PBXProject "Fickbok" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A9A4BA819F2785A00F81929;
+			productRefGroup = 0A9A4BB219F2785B00F81929 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A9A4BB019F2785B00F81929 /* Fickbok */,
+				0A9A4BC719F2785B00F81929 /* FickbokTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A9A4BAF19F2785B00F81929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BDBAE11B61867F00EB105B /* Nitrolingual.pdf in Resources */,
+				66BDBB0E1B6186A300EB105B /* Kramper Barn.pdf in Resources */,
+				66BDBAE41B61867F00EB105B /* Panodil.pdf in Resources */,
+				66BDBA9B1B61864E00EB105B /* Hjärtstopp.pdf in Resources */,
+				66BDBADA1B61867F00EB105B /* Ketanest.pdf in Resources */,
+				66BDBA9E1B61864E00EB105B /* Intraossiös nål.pdf in Resources */,
+				66BDBB091B6186A300EB105B /* Bradykardi Barn.pdf in Resources */,
+				66BDBB081B6186A300EB105B /* Astma-Obstruktiva besvär Barn.pdf in Resources */,
+				66BDBB141B6186A300EB105B /* Läkemedelsdoser V Barn.pdf in Resources */,
+				66BDBB0C1B6186A300EB105B /* HLR Barn.pdf in Resources */,
+				66BDBB051B6186A300EB105B /* Anafylaktisk reaktion Barn.pdf in Resources */,
+				0A9A4BBE19F2785B00F81929 /* Main.storyboard in Resources */,
+				66BDBAEE1B61867F00EB105B /* Ventolin.pdf in Resources */,
+				66BDBACF1B61867F00EB105B /* Betapred.pdf in Resources */,
+				66BDBB0B1B6186A300EB105B /* Drunkningstillbud Barn.pdf in Resources */,
+				66BDBAE31B61867F00EB105B /* Oxygen.pdf in Resources */,
+				66BDBB161B6186A300EB105B /* Rök- och inhallationsskada Barn.pdf in Resources */,
+				66BDBAD61B61867F00EB105B /* Fentanyl I.N.pdf in Resources */,
+				66BDBAA31B61864E00EB105B /* Undersökningsteknik II.pdf in Resources */,
+				66BDBACD1B61867F00EB105B /* Alvedon.pdf in Resources */,
+				66BDBB101B6186A300EB105B /* Läkemedelsdoser Barn.pdf in Resources */,
+				66BDBAE61B61867F00EB105B /* Pulmicort.pdf in Resources */,
+				66BDBB041B6186A300EB105B /* Akut Buk Barn.pdf in Resources */,
+				66BDBAEB1B61867F00EB105B /* Suscard.pdf in Resources */,
+				66BDBADB1B61867F00EB105B /* Kolsuspension.pdf in Resources */,
+				66BDBB121B6186A300EB105B /* Läkemedelsdoser III Barn.pdf in Resources */,
+				66BDBACB1B61867F00EB105B /* Adrenalin Inhallation.pdf in Resources */,
+				66BDBAA51B61864E00EB105B /* Undersökningsteknik.pdf in Resources */,
+				66BDBAA21B61864E00EB105B /* Trauma.pdf in Resources */,
+				66BDBB171B6186A300EB105B /* Trauma och brännskada Barn.pdf in Resources */,
+				66BE2C031B62540200566EE4 /* splash.jpg in Resources */,
+				0A9A4BC319F2785B00F81929 /* LaunchScreen.xib in Resources */,
+				66BDBADC1B61867F00EB105B /* Loratadin.pdf in Resources */,
+				66BDBACC1B61867F00EB105B /* Adrenalin.pdf in Resources */,
+				66BDBAE71B61867F00EB105B /* Ringer-Acetat.pdf in Resources */,
+				66BDBAE51B61867F00EB105B /* Preparathandbok info.pdf in Resources */,
+				66BDBAE21B61867F00EB105B /* Ondansetron.pdf in Resources */,
+				66BDBA981B61864E00EB105B /* Basala behandlingsmål.pdf in Resources */,
+				66BDBAEA1B61867F00EB105B /* Stesolid.pdf in Resources */,
+				66BDBAA01B61864E00EB105B /* Prioriteringskort.pdf in Resources */,
+				66BDBADD1B61867F00EB105B /* Lustgas:Oxygen.pdf in Resources */,
+				66BDBA9D1B61864E00EB105B /* Immobilisering.pdf in Resources */,
+				66BDBA9F1B61864E00EB105B /* MIMMS.pdf in Resources */,
+				66BDBB131B6186A300EB105B /* Läkemedelsdoser IV Barn.pdf in Resources */,
+				66772DD41B60098600EC6659 /* Ambulansens-fickbok in Resources */,
+				66BDBB111B6186A300EB105B /* Läkemedelsdoser II Barn.pdf in Resources */,
+				66BDBB151B6186A300EB105B /* Normalvärden Barn.pdf in Resources */,
+				66BDBB061B6186A300EB105B /* Andningshinder Barn.pdf in Resources */,
+				66BDBAD91B61867F00EB105B /* Heparin.pdf in Resources */,
+				66BDBAEC1B61867F00EB105B /* Tetracain.pdf in Resources */,
+				66BDBAA11B61864E00EB105B /* Stroke.pdf in Resources */,
+				66BDBB0F1B6186A300EB105B /* Läkemedelsbehandling Barn info.pdf in Resources */,
+				66BDBAA41B61864E00EB105B /* Undersökningsteknik III.pdf in Resources */,
+				0A9A4BC019F2785B00F81929 /* Images.xcassets in Resources */,
+				66BDBAD31B61867F00EB105B /* Combivent.pdf in Resources */,
+				66BDBAA61B61864E00EB105B /* Vitalparametrar Retts.pdf in Resources */,
+				66BDBAD11B61867F00EB105B /* Brilique.pdf in Resources */,
+				66BDBAE81B61867F00EB105B /* Seloken.pdf in Resources */,
+				66BDBADE1B61867F00EB105B /* Midazolam.pdf in Resources */,
+				66BDBAD41B61867F00EB105B /* Cordarone.pdf in Resources */,
+				66BDBAD81B61867F00EB105B /* Glukos.pdf in Resources */,
+				66BDBAD21B61867F00EB105B /* Carbocain.pdf in Resources */,
+				66BDBAED1B61867F00EB105B /* Trombyl.pdf in Resources */,
+				66BDBADF1B61867F00EB105B /* Morfin.pdf in Resources */,
+				66BDBA9A1B61864E00EB105B /* Hjärtstopp II.pdf in Resources */,
+				66BDBB0A1B6186A300EB105B /* Diabetes Mellitus Barn.pdf in Resources */,
+				66BDBA991B61864E00EB105B /* Behandlingsschema info.pdf in Resources */,
+				66BDBA971B61864E00EB105B /* Basal övervakning.pdf in Resources */,
+				66BDBAE01B61867F00EB105B /* Naloxon.pdf in Resources */,
+				66BDBB0D1B6186A300EB105B /* Intoxikation Barn.pdf in Resources */,
+				66BDBB181B6186A300EB105B /* Vätskebalans Barn.pdf in Resources */,
+				66BDBAE91B61867F00EB105B /* Stesolid Klysma:Prefil.pdf in Resources */,
+				66BDBAD51B61867F00EB105B /* Diklofenak:Voltaren.pdf in Resources */,
+				66BDBAD01B61867F00EB105B /* Bricanyl.pdf in Resources */,
+				66BDBA9C1B61864E00EB105B /* Immobilisering II.pdf in Resources */,
+				66BDBACE1B61867F00EB105B /* Atropin.pdf in Resources */,
+				66BDBAD71B61867F00EB105B /* Furix.pdf in Resources */,
+				66BDBB071B6186A300EB105B /* Andningshinder II Barn.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9A4BC619F2785B00F81929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A9A4BAD19F2785B00F81929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9A4BBB19F2785B00F81929 /* DetailViewController.swift in Sources */,
+				0A9A4BB919F2785B00F81929 /* ChapterTableViewController.swift in Sources */,
+				DEC2EE191B5EC1C500544DE2 /* Chapters.swift in Sources */,
+				66BDBA801B60FA7300EB105B /* DataFetcher.swift in Sources */,
+				DEC2EE201B5EE20900544DE2 /* DrugsChildrenTableViewController.swift in Sources */,
+				DEC2EE1C1B5ECD3A00544DE2 /* DrugsAdultTableViewController.swift in Sources */,
+				66BDBA7E1B60F7D000EB105B /* AlgorithmsTableViewController.swift in Sources */,
+				0A9A4BB719F2785B00F81929 /* AppDelegate.swift in Sources */,
+				DEC2EE1E1B5ED82100544DE2 /* PdfViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9A4BC419F2785B00F81929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9A4BCF19F2785B00F81929 /* FickbokTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A9A4BCA19F2785B00F81929 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A9A4BB019F2785B00F81929 /* Fickbok */;
+			targetProxy = 0A9A4BC919F2785B00F81929 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A9A4BBC19F2785B00F81929 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A9A4BBD19F2785B00F81929 /* Base */,
+			);
+			name = Main.storyboard;
+			path = Fickbok;
+			sourceTree = "<group>";
+		};
+		0A9A4BC119F2785B00F81929 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A9A4BC219F2785B00F81929 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = Fickbok;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A9A4BD019F2785B00F81929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A9A4BD119F2785B00F81929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A9A4BD319F2785B00F81929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/Fickbok/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bom.fickbok;
+				PRODUCT_NAME = Fickbok;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		0A9A4BD419F2785B00F81929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/Fickbok/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bom.fickbok;
+				PRODUCT_NAME = Fickbok;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		0A9A4BD619F2785B00F81929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MultipleDetailViewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.palewar.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Fickbok;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fickbok.app/Fickbok";
+			};
+			name = Debug;
+		};
+		0A9A4BD719F2785B00F81929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MultipleDetailViewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.palewar.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Fickbok;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fickbok.app/Fickbok";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A9A4BAC19F2785B00F81929 /* Build configuration list for PBXProject "Fickbok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9A4BD019F2785B00F81929 /* Debug */,
+				0A9A4BD119F2785B00F81929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A9A4BD219F2785B00F81929 /* Build configuration list for PBXNativeTarget "Fickbok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9A4BD319F2785B00F81929 /* Debug */,
+				0A9A4BD419F2785B00F81929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A9A4BD519F2785B00F81929 /* Build configuration list for PBXNativeTarget "FickbokTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9A4BD619F2785B00F81929 /* Debug */,
+				0A9A4BD719F2785B00F81929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A9A4BA919F2785B00F81929 /* Project object */;
+}
