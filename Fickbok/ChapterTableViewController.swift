@@ -11,6 +11,7 @@ import UIKit
 class ChapterViewController: UITableViewController {
 
     var chapters = Chapters().getListOfChapters()
+    
     var detailViewController: DetailViewController? = nil
     
     
@@ -47,24 +48,36 @@ class ChapterViewController: UITableViewController {
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
     }
-
+    
     
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return chapters.count
+        
+        
+
     }
 
     
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath)
-        
-        let chapter = chapters[indexPath.row]
-        cell.textLabel!.text = chapter
+        if (indexPath.section == 0){
+            let chapter = chapters[indexPath.row]
+            cell.textLabel!.text = chapter
+        }
         
         return cell
     }
-
+    
+    
+    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        
+        return "Fickbok"
+        
+        
+        
+    }
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
 
