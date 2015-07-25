@@ -8,10 +8,12 @@
 
 import UIKit
 
-class PdfViewController: UIViewController {
+class PdfViewController: UIViewController, UIWebViewDelegate {
 
 
     @IBOutlet weak var pdfViewer: UIWebView!
+    
+
     var pdfRequest: NSURLRequest?
     
     var detailItem: String?{
@@ -21,12 +23,18 @@ class PdfViewController: UIViewController {
         
     }
     
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        
+        pdfViewer.delegate = self
         if pdfRequest != nil{
+            
             self.pdfViewer.loadRequest(pdfRequest!)
+            
         }
     }
 
@@ -43,6 +51,13 @@ class PdfViewController: UIViewController {
         }
         
         
+    }
+    func webViewDidStartLoad(webView: UIWebView) {
+        activityIndicator.startAnimating()
+    }
+    
+    func webViewDidFinishLoad(webView: UIWebView) {
+        activityIndicator.stopAnimating()
     }
     
 

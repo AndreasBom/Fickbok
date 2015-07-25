@@ -20,17 +20,13 @@
 		66BDBA971B61864E00EB105B /* Basal övervakning.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBA871B61864E00EB105B /* Basal övervakning.pdf */; };
 		66BDBA981B61864E00EB105B /* Basala behandlingsmål.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBA881B61864E00EB105B /* Basala behandlingsmål.pdf */; };
 		66BDBA991B61864E00EB105B /* Behandlingsschema info.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBA891B61864E00EB105B /* Behandlingsschema info.pdf */; };
-		66BDBA9A1B61864E00EB105B /* Hjärtstopp II.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBA8A1B61864E00EB105B /* Hjärtstopp II.pdf */; };
 		66BDBA9B1B61864E00EB105B /* Hjärtstopp.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBA8B1B61864E00EB105B /* Hjärtstopp.pdf */; };
-		66BDBA9C1B61864E00EB105B /* Immobilisering II.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBA8C1B61864E00EB105B /* Immobilisering II.pdf */; };
 		66BDBA9D1B61864E00EB105B /* Immobilisering.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBA8D1B61864E00EB105B /* Immobilisering.pdf */; };
 		66BDBA9E1B61864E00EB105B /* Intraossiös nål.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBA8E1B61864E00EB105B /* Intraossiös nål.pdf */; };
 		66BDBA9F1B61864E00EB105B /* MIMMS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBA8F1B61864E00EB105B /* MIMMS.pdf */; };
 		66BDBAA01B61864E00EB105B /* Prioriteringskort.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBA901B61864E00EB105B /* Prioriteringskort.pdf */; };
 		66BDBAA11B61864E00EB105B /* Stroke.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBA911B61864E00EB105B /* Stroke.pdf */; };
 		66BDBAA21B61864E00EB105B /* Trauma.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBA921B61864E00EB105B /* Trauma.pdf */; };
-		66BDBAA31B61864E00EB105B /* Undersökningsteknik II.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBA931B61864E00EB105B /* Undersökningsteknik II.pdf */; };
-		66BDBAA41B61864E00EB105B /* Undersökningsteknik III.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBA941B61864E00EB105B /* Undersökningsteknik III.pdf */; };
 		66BDBAA51B61864E00EB105B /* Undersökningsteknik.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBA951B61864E00EB105B /* Undersökningsteknik.pdf */; };
 		66BDBAA61B61864E00EB105B /* Vitalparametrar Retts.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBA961B61864E00EB105B /* Vitalparametrar Retts.pdf */; };
 		66BDBACB1B61867F00EB105B /* Adrenalin Inhallation.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAA71B61867E00EB105B /* Adrenalin Inhallation.pdf */; };
@@ -72,7 +68,6 @@
 		66BDBB041B6186A300EB105B /* Akut Buk Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAEF1B6186A300EB105B /* Akut Buk Barn.pdf */; };
 		66BDBB051B6186A300EB105B /* Anafylaktisk reaktion Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAF01B6186A300EB105B /* Anafylaktisk reaktion Barn.pdf */; };
 		66BDBB061B6186A300EB105B /* Andningshinder Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAF11B6186A300EB105B /* Andningshinder Barn.pdf */; };
-		66BDBB071B6186A300EB105B /* Andningshinder II Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAF21B6186A300EB105B /* Andningshinder II Barn.pdf */; };
 		66BDBB081B6186A300EB105B /* Astma-Obstruktiva besvär Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAF31B6186A300EB105B /* Astma-Obstruktiva besvär Barn.pdf */; };
 		66BDBB091B6186A300EB105B /* Bradykardi Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAF41B6186A300EB105B /* Bradykardi Barn.pdf */; };
 		66BDBB0A1B6186A300EB105B /* Diabetes Mellitus Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAF51B6186A300EB105B /* Diabetes Mellitus Barn.pdf */; };
@@ -82,10 +77,6 @@
 		66BDBB0E1B6186A300EB105B /* Kramper Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAF91B6186A300EB105B /* Kramper Barn.pdf */; };
 		66BDBB0F1B6186A300EB105B /* Läkemedelsbehandling Barn info.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAFA1B6186A300EB105B /* Läkemedelsbehandling Barn info.pdf */; };
 		66BDBB101B6186A300EB105B /* Läkemedelsdoser Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAFB1B6186A300EB105B /* Läkemedelsdoser Barn.pdf */; };
-		66BDBB111B6186A300EB105B /* Läkemedelsdoser II Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAFC1B6186A300EB105B /* Läkemedelsdoser II Barn.pdf */; };
-		66BDBB121B6186A300EB105B /* Läkemedelsdoser III Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAFD1B6186A300EB105B /* Läkemedelsdoser III Barn.pdf */; };
-		66BDBB131B6186A300EB105B /* Läkemedelsdoser IV Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAFE1B6186A300EB105B /* Läkemedelsdoser IV Barn.pdf */; };
-		66BDBB141B6186A300EB105B /* Läkemedelsdoser V Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBAFF1B6186A300EB105B /* Läkemedelsdoser V Barn.pdf */; };
 		66BDBB151B6186A300EB105B /* Normalvärden Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBB001B6186A300EB105B /* Normalvärden Barn.pdf */; };
 		66BDBB161B6186A300EB105B /* Rök- och inhallationsskada Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBB011B6186A300EB105B /* Rök- och inhallationsskada Barn.pdf */; };
 		66BDBB171B6186A300EB105B /* Trauma och brännskada Barn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBB021B6186A300EB105B /* Trauma och brännskada Barn.pdf */; };
@@ -125,17 +116,13 @@
 		66BDBA871B61864E00EB105B /* Basal övervakning.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Basal övervakning.pdf"; path = "Ambulansens-fickbok/Algoritmer/Basal övervakning.pdf"; sourceTree = "<group>"; };
 		66BDBA881B61864E00EB105B /* Basala behandlingsmål.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Basala behandlingsmål.pdf"; path = "Ambulansens-fickbok/Algoritmer/Basala behandlingsmål.pdf"; sourceTree = "<group>"; };
 		66BDBA891B61864E00EB105B /* Behandlingsschema info.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Behandlingsschema info.pdf"; path = "Ambulansens-fickbok/Algoritmer/Behandlingsschema info.pdf"; sourceTree = "<group>"; };
-		66BDBA8A1B61864E00EB105B /* Hjärtstopp II.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Hjärtstopp II.pdf"; path = "Ambulansens-fickbok/Algoritmer/Hjärtstopp II.pdf"; sourceTree = "<group>"; };
 		66BDBA8B1B61864E00EB105B /* Hjärtstopp.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Hjärtstopp.pdf"; path = "Ambulansens-fickbok/Algoritmer/Hjärtstopp.pdf"; sourceTree = "<group>"; };
-		66BDBA8C1B61864E00EB105B /* Immobilisering II.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Immobilisering II.pdf"; path = "Ambulansens-fickbok/Algoritmer/Immobilisering II.pdf"; sourceTree = "<group>"; };
 		66BDBA8D1B61864E00EB105B /* Immobilisering.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Immobilisering.pdf; path = "Ambulansens-fickbok/Algoritmer/Immobilisering.pdf"; sourceTree = "<group>"; };
 		66BDBA8E1B61864E00EB105B /* Intraossiös nål.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Intraossiös nål.pdf"; path = "Ambulansens-fickbok/Algoritmer/Intraossiös nål.pdf"; sourceTree = "<group>"; };
 		66BDBA8F1B61864E00EB105B /* MIMMS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = MIMMS.pdf; path = "Ambulansens-fickbok/Algoritmer/MIMMS.pdf"; sourceTree = "<group>"; };
 		66BDBA901B61864E00EB105B /* Prioriteringskort.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Prioriteringskort.pdf; path = "Ambulansens-fickbok/Algoritmer/Prioriteringskort.pdf"; sourceTree = "<group>"; };
 		66BDBA911B61864E00EB105B /* Stroke.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Stroke.pdf; path = "Ambulansens-fickbok/Algoritmer/Stroke.pdf"; sourceTree = "<group>"; };
 		66BDBA921B61864E00EB105B /* Trauma.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Trauma.pdf; path = "Ambulansens-fickbok/Algoritmer/Trauma.pdf"; sourceTree = "<group>"; };
-		66BDBA931B61864E00EB105B /* Undersökningsteknik II.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Undersökningsteknik II.pdf"; path = "Ambulansens-fickbok/Algoritmer/Undersökningsteknik II.pdf"; sourceTree = "<group>"; };
-		66BDBA941B61864E00EB105B /* Undersökningsteknik III.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Undersökningsteknik III.pdf"; path = "Ambulansens-fickbok/Algoritmer/Undersökningsteknik III.pdf"; sourceTree = "<group>"; };
 		66BDBA951B61864E00EB105B /* Undersökningsteknik.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Undersökningsteknik.pdf"; path = "Ambulansens-fickbok/Algoritmer/Undersökningsteknik.pdf"; sourceTree = "<group>"; };
 		66BDBA961B61864E00EB105B /* Vitalparametrar Retts.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Vitalparametrar Retts.pdf"; path = "Ambulansens-fickbok/Algoritmer/Vitalparametrar Retts.pdf"; sourceTree = "<group>"; };
 		66BDBAA71B61867E00EB105B /* Adrenalin Inhallation.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Adrenalin Inhallation.pdf"; path = "Ambulansens-fickbok/Vuxen/Adrenalin Inhallation.pdf"; sourceTree = "<group>"; };
@@ -177,7 +164,6 @@
 		66BDBAEF1B6186A300EB105B /* Akut Buk Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Akut Buk Barn.pdf"; path = "Ambulansens-fickbok/Barn/Akut Buk Barn.pdf"; sourceTree = "<group>"; };
 		66BDBAF01B6186A300EB105B /* Anafylaktisk reaktion Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Anafylaktisk reaktion Barn.pdf"; path = "Ambulansens-fickbok/Barn/Anafylaktisk reaktion Barn.pdf"; sourceTree = "<group>"; };
 		66BDBAF11B6186A300EB105B /* Andningshinder Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Andningshinder Barn.pdf"; path = "Ambulansens-fickbok/Barn/Andningshinder Barn.pdf"; sourceTree = "<group>"; };
-		66BDBAF21B6186A300EB105B /* Andningshinder II Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Andningshinder II Barn.pdf"; path = "Ambulansens-fickbok/Barn/Andningshinder II Barn.pdf"; sourceTree = "<group>"; };
 		66BDBAF31B6186A300EB105B /* Astma-Obstruktiva besvär Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Astma-Obstruktiva besvär Barn.pdf"; path = "Ambulansens-fickbok/Barn/Astma-Obstruktiva besvär Barn.pdf"; sourceTree = "<group>"; };
 		66BDBAF41B6186A300EB105B /* Bradykardi Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Bradykardi Barn.pdf"; path = "Ambulansens-fickbok/Barn/Bradykardi Barn.pdf"; sourceTree = "<group>"; };
 		66BDBAF51B6186A300EB105B /* Diabetes Mellitus Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Diabetes Mellitus Barn.pdf"; path = "Ambulansens-fickbok/Barn/Diabetes Mellitus Barn.pdf"; sourceTree = "<group>"; };
@@ -187,10 +173,6 @@
 		66BDBAF91B6186A300EB105B /* Kramper Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Kramper Barn.pdf"; path = "Ambulansens-fickbok/Barn/Kramper Barn.pdf"; sourceTree = "<group>"; };
 		66BDBAFA1B6186A300EB105B /* Läkemedelsbehandling Barn info.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Läkemedelsbehandling Barn info.pdf"; path = "Ambulansens-fickbok/Barn/Läkemedelsbehandling Barn info.pdf"; sourceTree = "<group>"; };
 		66BDBAFB1B6186A300EB105B /* Läkemedelsdoser Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Läkemedelsdoser Barn.pdf"; path = "Ambulansens-fickbok/Barn/Läkemedelsdoser Barn.pdf"; sourceTree = "<group>"; };
-		66BDBAFC1B6186A300EB105B /* Läkemedelsdoser II Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Läkemedelsdoser II Barn.pdf"; path = "Ambulansens-fickbok/Barn/Läkemedelsdoser II Barn.pdf"; sourceTree = "<group>"; };
-		66BDBAFD1B6186A300EB105B /* Läkemedelsdoser III Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Läkemedelsdoser III Barn.pdf"; path = "Ambulansens-fickbok/Barn/Läkemedelsdoser III Barn.pdf"; sourceTree = "<group>"; };
-		66BDBAFE1B6186A300EB105B /* Läkemedelsdoser IV Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Läkemedelsdoser IV Barn.pdf"; path = "Ambulansens-fickbok/Barn/Läkemedelsdoser IV Barn.pdf"; sourceTree = "<group>"; };
-		66BDBAFF1B6186A300EB105B /* Läkemedelsdoser V Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Läkemedelsdoser V Barn.pdf"; path = "Ambulansens-fickbok/Barn/Läkemedelsdoser V Barn.pdf"; sourceTree = "<group>"; };
 		66BDBB001B6186A300EB105B /* Normalvärden Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Normalvärden Barn.pdf"; path = "Ambulansens-fickbok/Barn/Normalvärden Barn.pdf"; sourceTree = "<group>"; };
 		66BDBB011B6186A300EB105B /* Rök- och inhallationsskada Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Rök- och inhallationsskada Barn.pdf"; path = "Ambulansens-fickbok/Barn/Rök- och inhallationsskada Barn.pdf"; sourceTree = "<group>"; };
 		66BDBB021B6186A300EB105B /* Trauma och brännskada Barn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Trauma och brännskada Barn.pdf"; path = "Ambulansens-fickbok/Barn/Trauma och brännskada Barn.pdf"; sourceTree = "<group>"; };
@@ -295,17 +277,13 @@
 				66BDBA871B61864E00EB105B /* Basal övervakning.pdf */,
 				66BDBA881B61864E00EB105B /* Basala behandlingsmål.pdf */,
 				66BDBA891B61864E00EB105B /* Behandlingsschema info.pdf */,
-				66BDBA8A1B61864E00EB105B /* Hjärtstopp II.pdf */,
 				66BDBA8B1B61864E00EB105B /* Hjärtstopp.pdf */,
-				66BDBA8C1B61864E00EB105B /* Immobilisering II.pdf */,
 				66BDBA8D1B61864E00EB105B /* Immobilisering.pdf */,
 				66BDBA8E1B61864E00EB105B /* Intraossiös nål.pdf */,
 				66BDBA8F1B61864E00EB105B /* MIMMS.pdf */,
 				66BDBA901B61864E00EB105B /* Prioriteringskort.pdf */,
 				66BDBA911B61864E00EB105B /* Stroke.pdf */,
 				66BDBA921B61864E00EB105B /* Trauma.pdf */,
-				66BDBA931B61864E00EB105B /* Undersökningsteknik II.pdf */,
-				66BDBA941B61864E00EB105B /* Undersökningsteknik III.pdf */,
 				66BDBA951B61864E00EB105B /* Undersökningsteknik.pdf */,
 				66BDBA961B61864E00EB105B /* Vitalparametrar Retts.pdf */,
 			);
@@ -318,7 +296,6 @@
 				66BDBAEF1B6186A300EB105B /* Akut Buk Barn.pdf */,
 				66BDBAF01B6186A300EB105B /* Anafylaktisk reaktion Barn.pdf */,
 				66BDBAF11B6186A300EB105B /* Andningshinder Barn.pdf */,
-				66BDBAF21B6186A300EB105B /* Andningshinder II Barn.pdf */,
 				66BDBAF31B6186A300EB105B /* Astma-Obstruktiva besvär Barn.pdf */,
 				66BDBAF41B6186A300EB105B /* Bradykardi Barn.pdf */,
 				66BDBAF51B6186A300EB105B /* Diabetes Mellitus Barn.pdf */,
@@ -328,10 +305,6 @@
 				66BDBAF91B6186A300EB105B /* Kramper Barn.pdf */,
 				66BDBAFA1B6186A300EB105B /* Läkemedelsbehandling Barn info.pdf */,
 				66BDBAFB1B6186A300EB105B /* Läkemedelsdoser Barn.pdf */,
-				66BDBAFC1B6186A300EB105B /* Läkemedelsdoser II Barn.pdf */,
-				66BDBAFD1B6186A300EB105B /* Läkemedelsdoser III Barn.pdf */,
-				66BDBAFE1B6186A300EB105B /* Läkemedelsdoser IV Barn.pdf */,
-				66BDBAFF1B6186A300EB105B /* Läkemedelsdoser V Barn.pdf */,
 				66BDBB001B6186A300EB105B /* Normalvärden Barn.pdf */,
 				66BDBB011B6186A300EB105B /* Rök- och inhallationsskada Barn.pdf */,
 				66BDBB021B6186A300EB105B /* Trauma och brännskada Barn.pdf */,
@@ -518,7 +491,6 @@
 				66BDBA9E1B61864E00EB105B /* Intraossiös nål.pdf in Resources */,
 				66BDBB091B6186A300EB105B /* Bradykardi Barn.pdf in Resources */,
 				66BDBB081B6186A300EB105B /* Astma-Obstruktiva besvär Barn.pdf in Resources */,
-				66BDBB141B6186A300EB105B /* Läkemedelsdoser V Barn.pdf in Resources */,
 				66BDBB0C1B6186A300EB105B /* HLR Barn.pdf in Resources */,
 				66BDBB051B6186A300EB105B /* Anafylaktisk reaktion Barn.pdf in Resources */,
 				0A9A4BBE19F2785B00F81929 /* Main.storyboard in Resources */,
@@ -528,14 +500,12 @@
 				66BDBAE31B61867F00EB105B /* Oxygen.pdf in Resources */,
 				66BDBB161B6186A300EB105B /* Rök- och inhallationsskada Barn.pdf in Resources */,
 				66BDBAD61B61867F00EB105B /* Fentanyl I.N.pdf in Resources */,
-				66BDBAA31B61864E00EB105B /* Undersökningsteknik II.pdf in Resources */,
 				66BDBACD1B61867F00EB105B /* Alvedon.pdf in Resources */,
 				66BDBB101B6186A300EB105B /* Läkemedelsdoser Barn.pdf in Resources */,
 				66BDBAE61B61867F00EB105B /* Pulmicort.pdf in Resources */,
 				66BDBB041B6186A300EB105B /* Akut Buk Barn.pdf in Resources */,
 				66BDBAEB1B61867F00EB105B /* Suscard.pdf in Resources */,
 				66BDBADB1B61867F00EB105B /* Kolsuspension.pdf in Resources */,
-				66BDBB121B6186A300EB105B /* Läkemedelsdoser III Barn.pdf in Resources */,
 				66BDBACB1B61867F00EB105B /* Adrenalin Inhallation.pdf in Resources */,
 				66BDBAA51B61864E00EB105B /* Undersökningsteknik.pdf in Resources */,
 				66BDBAA21B61864E00EB105B /* Trauma.pdf in Resources */,
@@ -553,16 +523,13 @@
 				66BDBADD1B61867F00EB105B /* Lustgas:Oxygen.pdf in Resources */,
 				66BDBA9D1B61864E00EB105B /* Immobilisering.pdf in Resources */,
 				66BDBA9F1B61864E00EB105B /* MIMMS.pdf in Resources */,
-				66BDBB131B6186A300EB105B /* Läkemedelsdoser IV Barn.pdf in Resources */,
 				66772DD41B60098600EC6659 /* Ambulansens-fickbok in Resources */,
-				66BDBB111B6186A300EB105B /* Läkemedelsdoser II Barn.pdf in Resources */,
 				66BDBB151B6186A300EB105B /* Normalvärden Barn.pdf in Resources */,
 				66BDBB061B6186A300EB105B /* Andningshinder Barn.pdf in Resources */,
 				66BDBAD91B61867F00EB105B /* Heparin.pdf in Resources */,
 				66BDBAEC1B61867F00EB105B /* Tetracain.pdf in Resources */,
 				66BDBAA11B61864E00EB105B /* Stroke.pdf in Resources */,
 				66BDBB0F1B6186A300EB105B /* Läkemedelsbehandling Barn info.pdf in Resources */,
-				66BDBAA41B61864E00EB105B /* Undersökningsteknik III.pdf in Resources */,
 				0A9A4BC019F2785B00F81929 /* Images.xcassets in Resources */,
 				66BDBAD31B61867F00EB105B /* Combivent.pdf in Resources */,
 				66BDBAA61B61864E00EB105B /* Vitalparametrar Retts.pdf in Resources */,
@@ -574,7 +541,6 @@
 				66BDBAD21B61867F00EB105B /* Carbocain.pdf in Resources */,
 				66BDBAED1B61867F00EB105B /* Trombyl.pdf in Resources */,
 				66BDBADF1B61867F00EB105B /* Morfin.pdf in Resources */,
-				66BDBA9A1B61864E00EB105B /* Hjärtstopp II.pdf in Resources */,
 				66BDBB0A1B6186A300EB105B /* Diabetes Mellitus Barn.pdf in Resources */,
 				66BDBA991B61864E00EB105B /* Behandlingsschema info.pdf in Resources */,
 				66BDBA971B61864E00EB105B /* Basal övervakning.pdf in Resources */,
@@ -584,10 +550,8 @@
 				66BDBAE91B61867F00EB105B /* Stesolid Klysma:Prefil.pdf in Resources */,
 				66BDBAD51B61867F00EB105B /* Diklofenak:Voltaren.pdf in Resources */,
 				66BDBAD01B61867F00EB105B /* Bricanyl.pdf in Resources */,
-				66BDBA9C1B61864E00EB105B /* Immobilisering II.pdf in Resources */,
 				66BDBACE1B61867F00EB105B /* Atropin.pdf in Resources */,
 				66BDBAD71B61867F00EB105B /* Furix.pdf in Resources */,
-				66BDBB071B6186A300EB105B /* Andningshinder II Barn.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

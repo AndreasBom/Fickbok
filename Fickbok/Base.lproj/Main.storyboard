@@ -197,17 +197,23 @@
                                 <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="jg3-GL-5db">
+                                <rect key="frame" x="290" y="322" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="vfq-qy-tPl" secondAttribute="trailing" id="6cX-tq-sQw"/>
                             <constraint firstItem="vfq-qy-tPl" firstAttribute="leading" secondItem="PdU-XW-rBg" secondAttribute="leading" id="Spb-LF-3a3"/>
+                            <constraint firstItem="jg3-GL-5db" firstAttribute="centerY" secondItem="vfq-qy-tPl" secondAttribute="centerY" id="WSt-sK-FjV"/>
                             <constraint firstItem="vfq-qy-tPl" firstAttribute="top" secondItem="bpb-wu-Yzw" secondAttribute="bottom" id="YiH-9R-j9F"/>
                             <constraint firstItem="vfq-qy-tPl" firstAttribute="bottom" secondItem="Luw-LR-tus" secondAttribute="top" id="s6a-hw-kPr"/>
+                            <constraint firstItem="jg3-GL-5db" firstAttribute="centerX" secondItem="vfq-qy-tPl" secondAttribute="centerX" id="wgM-f3-mtU"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="KXG-jz-qEC"/>
                     <connections>
+                        <outlet property="activityIndicator" destination="jg3-GL-5db" id="sht-do-UGC"/>
                         <outlet property="pdfViewer" destination="vfq-qy-tPl" id="s2N-iW-CiW"/>
                     </connections>
                 </viewController>
